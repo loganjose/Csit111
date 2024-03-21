@@ -1,0 +1,77 @@
+body {background-color:rgb(248, 194, 141);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    padding: 0%;
+    
+}
+
+header {background-color:rgb(227, 113, 113);
+font-size: large;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top:5px;
+margin-bottom:5px;
+text-align: center;
+border-radius: 20px;
+border-style: solid ;
+
+}
+#wrapper{
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+img {
+ height: 300px; 
+ border-radius: 20px;
+ border-style: solid;
+ margin-left: 350px;
+
+}
+p {
+    color:rgb(0, 120, 0);
+    font-style: italic;
+    align-items: center;
+    
+} 
+h3 {
+    color:rgb(0, 120, 0);
+    font-style: italic;
+}
+ol {
+line-height: 2;
+margin-right:20px;
+}
+ul {text-transform: capitalize;  
+}
+footer{margin-right: 20px;
+}
+.soup {
+    content: url(tomato.jpg);
+    width: 140px ;
+    float: right ;
+    border-radius: 20px;
+   
+   
+ border-style: solid;
+}
+.cheese{
+    content: url(th.jpg);
+    width: 140px ;
+    float: left ;
+    border-radius: 20px;
+    position: relative;
+
+ 
+ border-style: solid;
+}
+
+
+
+
+
+
+
+
+
+
