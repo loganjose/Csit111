@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <style>
+        body{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: lightblue;
+            
+        }
+        h1,h2,h3,h4,h5 {
+            text-align: center;
+            border: dotted;
+            background-color: lemonchiffon;
+
+        }
+        div{
+            border: solid;
+            border-radius: 10px;
+            background-color: rgb(232, 184, 232);
+            
+        
+        }
+        .content-area{
+            width: 60%;
+        }
+    </style>
+</head>
+    <body>
+        <h1>Forms explained</h1>
+        <form> 
+            <div style="border: solid; border-radius:10px;">
+        <h2 style="text-align: center;">This is a text box</h2>
+        <p>This takes and stores a users text input in this example it is set to a first name and a last name. the greyed out text that says twilight sparkle is just one of the many things you can do with text boxes in forms.</p>
+        <p> This box will take just about anything one would type into it.</p>
+        <p> You can also set any of the fields to required meaning that once you press submit they have to be filled out.</p>
+       
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="fname" placeholder="Twilight">
+
+        
+        
+        <br>
+
+            <label for="lname">Last name</label>
+            <input type="text" id="lname" name="lname" placeholder="Sparkle">
+        
+
+        <br>
+
+    </div>
+    <br>
+    <div style="border: solid;border-radius: 10px;">
+
+        <h3> These are some specialty text Boxes </h3>
+        <ol>
+        <li>the first text box has some special properties to it this has what is known as input validation since the boxes value is set to email the form requires you to put in something with @.com,org,etc ensureing a valid email </li>
+        <li>The password text box element obscures the user input with dots in order to hide the password for privacy reasons. </li>
+        <li>This third one is set to be a phone number only and a big benifit with the place holder text is that you can put the area code in the placeholder text if your a buisness.</li>
+        </ol>
+    
+        <br>
+        
+            <label for="email"> Enter your email here</label>
+            <input type="email" id="email" name="email" placeholder="ronald@mcdonalds.com">
+        
+
+        <br>
+
+        
+            <label for="password"> Password </label>
+            <input type="password" id="password" name="password" placeholder="Secret">
+        
+
+        <br>
+        
+        
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" name="phone" placeholder="443-867-5309">
+        </div>
+        <br>
+        <div>
+
+        <h3>Radio buttons</h3>
+        <p>These are kind of like multiple choice questions if they where buttons you set three choices. but in order to have it so you can only select 1 you need to have all the name attributes set the same this is very useful for questions in a form that are of the simple yes no varaity.</p>
+
+        
+            <label>Paper</label>
+            <input type="radio" id="title1" name="pyrimid" value="Paper">
+            
+            
+            <label>Snow</label>
+            <input type="radio" id="title2" name="pyrimid" value="Snow">
+
+            
+            <label>A Ghost</label>
+            <input type="radio" id="title3" name="pyrimid" value="ghost">
+    </div>
+    <br>
+        <div>
+
+        <h4 style="font-size: larger;">Date</h4>
+        <p>This gives you a calendar that lets you pick a day its good because it gives a visual repersentation to find what date your looking for since it pulls up a visual calendar.</p>
+
+        
+            <label>Birthdate</label>
+            <input type="date" id="Bdate" name="Birthdate" >
+        
+        </div>
+        <br>
+        <div>
+
+        
+        <h5 style="font-size: larger;">Submit and Reset buttons </h5>
+        <p>These are actually the simplest part of forms they only take one line of code to create.</p>
+        <p>For submit however you need to actually set up a place for your form to connect and send too for it to fuction properally.</p>
+        
+        <input type="reset">
+        <input type="submit">
+    </div>
+
+        </form>
+
+
+        
+
+
+    </body>
