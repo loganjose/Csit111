@@ -4,3 +4,5 @@ table,th,td{border-style: solid;
 table {background-color: #a0f0a0;}
 body {background-color: lightblue;
 font-family: Verdana, Geneva, Tahoma, sans-serif;}
+th{background-color: orange;}
+
